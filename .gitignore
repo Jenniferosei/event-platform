@@ -1,0 +1,35 @@
+
+---
+
+### 📄 **`.gitignore`** (root)
+This keeps your repo clean. Since you’ll use Docker, Kubernetes, and local dev tools, start with:  
+
+```gitignore
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (if you build services with Node later)
+node_modules/
+dist/
+
+# Python (if you use Airflow/ML services)
+__pycache__/
+*.pyc
+.venv/
+
+# Go (if you try services in Go)
+bin/
+*.exe
+
+# Docker
+*.log
+*.pid
+.env
+
+# Kubernetes & Helm
+charts/*/values.override.yaml
+
+# IDE
+.vscode/
+.idea/
