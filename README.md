@@ -9,8 +9,6 @@ This project is a learning journey to build an event-driven microservices platfo
 - GitOps and policy-as-code practices
 
 ## Project Structure
-- `infra/` → Infrastructure setup (local Kubernetes with k3d, etc.)
-- `charts/` → Helm charts for deploying services
 - `services/` → Microservices (demo app, stream processor, notification service, etc.)
 - `scripts/` → Helper scripts for setup and automation
 
